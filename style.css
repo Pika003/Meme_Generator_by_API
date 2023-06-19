@@ -8,23 +8,22 @@
 .memeGenarator img{
     height: 430px;
     object-fit: cover;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 .memeGenarator .Genarator-meme-btn{
     padding: 8px 20px;
-    border: none;
-    border-left: 4px solid #222;
-    border-right: 4px solid #222;
+    border: 2px solid rgb(255, 255, 255);
     margin: 24px 0;
     font-size: 20px;
-    color: #000000;
-    background: rgb(193, 154, 154);
+    border-radius: 5px;
+    color: #ffffff;
+    background: rgb(49, 49, 221);
     cursor: pointer;
     transition: all 400ms ease;
 }
 .memeGenarator .Genarator-meme-btn:hover{
     padding: 8px 36px;
-    border-left: 8px solid #222;
-    border-right: 8px solid #222;
     letter-spacing: 3px;
 }
 .memeGenarator .meme-author {
